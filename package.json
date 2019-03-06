@@ -1,0 +1,26 @@
+{
+  "name": "lista-telefonica",
+  "version": "1.0.0",
+  "description": "Lista Telefônica implementada em AngularJS",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "angular",
+    "agenda",
+    "telefonica"
+  ],
+  "author": "thiago-amm",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-html2js": "^0.6.0"
+  }
+}

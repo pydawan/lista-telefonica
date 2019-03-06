@@ -1,0 +1,35 @@
+Build Workflow
+
+1. Limpar todos arquivos deixados pelo processo da distribuição (release) anterior.
+2. Verificar a qualidade (lint).
+3. Concatenar (concat) os arquivos JS.
+4. Minificar (minify) todos os arquivos JS já concatenados em um arquivo único.
+5. Minificar os arquivos CSS.
+6. Minificar os arquivos HTML.
+7. Copiar recursos necessários.
+8. Limpar arquivos intermediários.
+
+
+Requisitos
+1. Ter o NodeJS instalado
+2. Ter o NPM instalado
+3. Instalar a ferramenta de linha de comando do Grunt.
+   npm install -g grunt-cli
+4. Criar arquivo package.json para gerenciar as dependências do projeto com NPM.
+   npm init 
+5. Adicionar o Grunt como dependência do projeto.
+   npm install grunt --save-dev
+
+Instalar plugins do Grunt.
+Os plugins são bibliotecas de tarefas criadas por terceiros e prontas para uso.
+
+npm install grunt-contrib-jshint --save-dev
+npm install grunt-contrib-concat --save-dev
+npm install grunt-contrib-uglify --save-dev
+npm install grunt-contrib-cssmin --save-dev
+npm install grunt-contrib-htmlmin --save-dev
+npm install grunt-contrib-clean --save-dev
+npm install grunt-contrib-copy --save-dev
+
+grunt prod
+
